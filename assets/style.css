@@ -1,13 +1,60 @@
 body {
 	width: 100wh;
 	height: 90vh;
-	color: #fff;
+	background: gray !important;
+	/* background: linear-gradient(-45deg, #660b12, #000000, #ffffff); */
+	background-size: 400% 400%;
+	/* -webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite; */
+	font-size: 14px;
+}
+
+.header-bg {
+	/* background-color: gray; */
 	background: linear-gradient(-45deg, #660b12, #000000, #ffffff);
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
 	animation: Gradient 15s ease infinite;
+	/* -moz-border-radius:190px; 
+	-webkit-border-radius:190px; 
+	border-radius:190px; */
+	border-bottom-left-radius: 100px;
+	-moz-border-bottom-left-radius:100px; 
+	-webkit-border-bottom-left-radius:100px;
+	border-bottom-right-radius: 100px;
+	-moz-border-bottom-right-radius:100px; 
+	-webkit-border-bottom-right-radius:100px;
 }
+
+.body-bg {
+	width: 100wh;
+	height: 90vh;
+	color: #fff;
+	/* background: linear-gradient(-45deg, #660b12, #000000, #ffffff); */
+	background-color: gray;
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+	border-top: 2px solid black;
+}
+
+.list-bg {
+	width: 100%;
+	height: 100%;
+	background-color: #660b12;
+	/* border: 1.5px solid black; */
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	-moz-border-radius:50px; 
+	-webkit-border-radius:50px; 
+	border-radius:50px;
+	padding: 10px;
+  }
 
 @-webkit-keyframes Gradient {
 	0% {
@@ -96,15 +143,60 @@ h6 {
   }
 
   .social-media {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     display: block;
     margin-left: auto;
-    margin-right: auto;
+	margin-right: auto;
+	-moz-box-shadow: 0px 6px 5px #111; 
+	-webkit-box-shadow: 0px 6px 5px #111; 
+	box-shadow: 0px 2px 10px #111; 
+	-moz-border-radius:190px; 
+	-webkit-border-radius:190px; 
+	border-radius:190px;
 }
 
 .social-media-table {
     margin-left: auto;
-    margin-right: auto;
+	margin-right: auto;
 }
 
+.repo-button {
+	position: relative;
+	background-color: #800000;
+	border: none;
+	font-size: 28px;
+	color: #FFFFFF;
+	padding: 20px;
+	width: 200px;
+	text-align: center;
+	transition-duration: 0.4s;
+	text-decoration: none;
+	overflow: hidden;
+	cursor: pointer;
+}
+  
+.repo-button:after {
+	content: "";
+	background: #f1f1f1;
+	display: block;
+	position: absolute;
+	padding-top: 300%;
+	padding-left: 350%;
+	margin-left: -20px !important;
+	margin-top: -120%;
+	opacity: 0;
+	transition: all 0.8s
+}
+  
+.button:active:after {
+	padding: 0;
+	margin: 0;
+	opacity: 1;
+	transition: 0s
+}
+
+.credits {
+	margin-top: 2em; 
+	font-size: 10px;
+}

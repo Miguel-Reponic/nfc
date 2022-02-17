@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//macOS 12.2.1//EN
+N:;Reponic;;;
+TEL;type=CELL;type=VOICE;type=pref:+14079708692
+NOTE:Digital Marketing and Software Company
+item1.URL;type=pref:www.reponic.org
+item1.X-ABLabel:_$!<HomePage>!$_
+X-ABShowAs:COMPANY
+END:VCARD
