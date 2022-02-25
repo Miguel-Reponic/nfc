@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//macOS 12.2.1//EN
+N:Gonzales;Javier ;;;
+FN:Javier  Gonzales
+ORG:JGR Construction;
+EMAIL;type=INTERNET;type=WORK;type=pref:javier@jgrconstruction.com
+TEL;type=CELL;type=VOICE;type=pref:+17863715693
+TEL;type=WORK;type=VOICE:+13052627306
+ADR;type=WORK;type=pref:;;11379 NW 122nd Street;Medley;FL;33178;USA
+URL;type=WORK;type=pref:https://jgrconstruction.com/
+END:VCARD
