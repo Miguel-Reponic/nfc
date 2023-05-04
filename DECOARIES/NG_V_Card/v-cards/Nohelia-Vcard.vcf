@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//macOS 12.2.1//EN
+N:Georges;Nohelia;;;
+FN:Decoaries Corp
+ORG:Decoaries Corp;
+EMAIL;type=INTERNET;type=WORK;type=pref:admin@decoariescorp.com
+TEL;type=CELL;type=VOICE;type=pref:+13058843255
+ADR;type=WORK;type=pref:;;150 W 24th St a;Hialeah;FL;33010;
+item1.URL;type=pref:www.decoariescorp.com
+item1.X-ABLabel:_$!<HomePage>!$_
+IMPP;X-SERVICE-TYPE=Facebook;type=HOME;type=pref:xmpp:decoariescorp
+X-ABShowAs:COMPANY
+END:VCARD
